@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">KonserTicket</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Deskripsi"><![CDATA[Nikmati penampilan musik spektakuler dari artis ternama, John Doe & Friends. Acara ini akan menampilkan berbagai genre musik dan penampilan yang memukau dari artis-artis top. Jangan lewatkan kesempatan langka ini untuk menikmati pengalaman musikal yang luar biasa.]]></string>
+</resources>

@@ -1,0 +1,67 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="170dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Gambar Header -->
+        <ImageView
+            android:id="@+id/imageHeader"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img" />
+
+        <!-- Judul Event -->
+        <TextView
+            android:id="@+id/titleEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Performance Music"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Tanggal -->
+        <TextView
+            android:id="@+id/dateEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24 Feb 2024"
+            android:textColor="#666666"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Harga -->
+        <TextView
+            android:id="@+id/priceEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp150.000"
+            android:textColor="#FF5722"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Footer (Nama Organisasi) -->
+        <TextView
+            android:id="@+id/footerEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="See detail"
+            android:textColor="#999999"
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

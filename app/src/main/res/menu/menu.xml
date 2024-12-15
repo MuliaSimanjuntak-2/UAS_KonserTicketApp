@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/userHomeFragment"
+        android:orderInCategory="100"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/userBookingFragment"
+        android:orderInCategory="100"
+        android:icon="@drawable/baseline_book_24"
+        android:title="Booking"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/userAccountFragment"
+        android:orderInCategory="100"
+        android:icon="@drawable/baseline_account_box_24"
+        android:title="Account"
+        app:showAsAction="always" />
+</menu>
